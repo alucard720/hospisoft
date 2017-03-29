@@ -150,9 +150,7 @@
 			</div></form>
 
 			<div class="panel-body">
-           <form role="form">
-  
-                
+           <form role="form">               
             </div>
             <div class="row">
     			<div class="col-xs-12 col-sm-4 col-md-4">
@@ -174,16 +172,71 @@
 
 					</div>
 				</div>
-			</div></form>
-
-
-									
+			</div></form>		
 		          
     				
 	                
 
-<!--third column-->
+<!--4th column-->
+						<div class="panel-body">
+           <form role="form">               
+            </div>
+            <div class="row">
+    			<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-building"></i></span>
+                        <input type="text" name="first_name" id="" class="form-control" placeholder="Aseguradora">
+					</div>
+				</div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+    				<div class="input-group">
+    				<span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+                        <input type="text" class="form-control" id="" placeholder="Carnet de Seguro">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                        <input type="text" class="form-control" id="maskedDate" placeholder="Vencimiento del Seguro">
 
+					</div>
+				</div>
+			</div></form>		
+
+			<!--5th . column-->
+						<div class="panel-body">
+           <form role="form">               
+            </div>
+            <div class="row">
+    			<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-users"></i></span>
+                        <select class="form-control" >
+                        		<div class="dropdown">
+                        		<option value="" >Catergoria</option>
+                        				<option></option>
+                        		</select>
+					</div>
+				</div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+    				 <div class="input-group">
+				      <span class="input-group-addon"><i class="fa fa-photo"></i></span>              
+				      <input type="text" class="form-control" placeholder="Foto Carnet" type="file">
+				      <span class="input-group-btn">
+				      <button class="btn btn-secondary-sm" type="button">Buscar</button></span>
+				     
+
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-photo"></i></span>
+                        <input type="text" class="form-control" id="" placeholder="Foto Cedula">
+
+					</div>
+				</div>
+			</div></form>	
+		          
 
 			
 
@@ -206,12 +259,7 @@
   
   <div class="form-group">
                                     
-                                        <div style="font-size:85%">
-                                            No tienes Cuenta?
-                                        <a href="#" onClick="$('#loginbox').hide(); $('#signupbox').show()">
-                                            Registrate.
-                                        </a>
-                                        </div>
+                                        
                                     
                                 </div> 
 </form>
@@ -319,6 +367,9 @@
 		});
 		
 	});
+	</script>
+	<script> 
+	$(":file").filestyle({icon: false});
 	</script>
 </body>
 </html>
