@@ -72,13 +72,19 @@
 							<textarea placeholder="Introducir Direccion Aqui.." rows="2" class="form-control"></textarea>
 						</div>	
 						<div class="row">
-							<div class="col-sm-4 form-group">
+							
+								<div class="col-sm-4 form-group">
 								<label>Provincia</label>
-								<input type="text" placeholder="Enter City Name Here.." class="form-control">
-							</div>	
+													<select class="form-control" id="country" name="Provincia">
+														
+													</select>
+												</div>	
 							<div class="col-sm-4 form-group">
-								<label>Ciudad</label>
-								<input type="text" placeholder="Enter State Name Here.." class="form-control">
+								<label>Municipio</label>
+								<select class="form-control" id="state" name="Municipio">
+														
+								</select>
+
 							</div>	
 							<div class="col-sm-4 form-group">
 								<label>Sector</label>
@@ -119,24 +125,12 @@
 				</div>
 	</div>
 	</div>
-  			
-    
-  
- 
-
-
-			
 
     			
 		                                  
 
 
 
-					                  <div class="input-group">
-                                      <div class="checkbox" style="margin-top: 0px;">
-                                        
-                                      </div>
-                                    </div>
                                     
 
   
@@ -174,6 +168,12 @@
 	<script src="js/hogan.js"></script>
 	<script src="js/typeahead.min.js"></script>
 	<script src="js/jquery.pwstrength.js"></script>
+	<script type= "text/javascript" src = "js/repdom.js"></script>
+	<script language="javascript">
+	populateCountries("country", "state"); // first parameter is id of country drop-down and second parameter is id of state drop-down
+	populateCountries("country2");
+	populateCountries("country2");
+</script>
 	
 
 	
