@@ -17,3 +17,5 @@ $('a[href*=#]:not([href=#])').click(function() {
       }
     }
 });
+
+/* End of file */
