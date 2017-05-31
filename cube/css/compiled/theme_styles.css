@@ -2436,7 +2436,7 @@ input[type="radio"] {
 #login-box {
   max-width: 350px;
   min-width: 280px;
-  margin: 10px auto 20px;
+  margin: 60px auto 20px;
   overflow: hidden;
   border-radius: 3px 3px 0 0;
   background-clip: padding-box;
@@ -3658,7 +3658,7 @@ input[type="radio"] {
   background-size: cover;
   color: #fff;
   text-align: center;
-  border-radius: 12px 5px 12px 5px;
+  border-radius: 3px 3px 0 0;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */ }
 .profile-box .profile-img {
@@ -3691,7 +3691,7 @@ input[type="radio"] {
     padding: 15px 10px;
     color: #fff; }
     .profile-box .profile-box-footer a:first-child {
-      border-radius: 12px 5px  3px;
+      border-radius: 0 0 0 3px;
       background-clip: padding-box;
       /* stops bg color from leaking outside the border: */ }
     .profile-box .profile-box-footer a:last-child {
@@ -3825,7 +3825,6 @@ input[type="radio"] {
   color: #fff;
   border-radius: 3px 3px 0 0;
   background-clip: padding-box;
-  background-color: #ffffff;
   /* stops bg color from leaking outside the border: */ }
 .profile-box-contact .profile-img {
   border-radius: 50%;
@@ -3835,7 +3834,7 @@ input[type="radio"] {
   height: 110px;
   float: left;
   margin-right: 15px;
-  border: 0px; }
+  border: 5px solid #fff; }
 .profile-box-contact h2 {
   padding: 8px 0 3px;
   margin: 0;
