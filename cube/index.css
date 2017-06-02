@@ -43,9 +43,9 @@ html,body {
 }
 
 section {
-	padding-top:70px;  
-    padding-bottom:50px; 
-    min-height:calc(100% - 1px);
+	padding-top:80px;  
+    padding-bottom:60px; 
+    min-height:calc(100% - 2px);
 }
 
 .v-center {
