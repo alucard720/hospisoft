@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Doctores</title>
+	<title>Cube - Bootstrap Admin Template</title>
 	
 	<!-- bootstrap -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css" />
@@ -24,6 +24,7 @@
 	<!-- global styles -->
 	<link rel="stylesheet" type="text/css" href="css/compiled/theme_styles.css" />
 
+
 	<!-- this page specific styles -->
 	
 	<!-- Favicon -->
@@ -38,85 +39,28 @@
 	<![endif]-->
 </head>
 <body>
-	<div id="theme-wrapper">
-		<header class="navbar" id="header-navbar">
-			<div class="container">
-				<a href="index.html" id="logo" class="navbar-brand">
-					<img src="img/logo.png" alt="" class="normal-logo logo-white"/>
-					<img src="img/logo-black.png" alt="" class="normal-logo logo-black"/>
-					<img src="img/logo-small.png" alt="" class="small-logo hidden-xs hidden-sm hidden"/>
-				</a>
-				
-				<div class="clearfix">
-				<button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="fa fa-bars"></span>
-				</button>
-				
-				<div class="nav-no-collapse navbar-left pull-left hidden-sm hidden-xs">
-					<ul class="nav navbar-nav pull-left">
-						<li>
-							<a class="btn" id="make-small-nav">
-								<i class="fa fa-bars"></i>
-							</a>
-						</li>
-						
-							</ul>
-						</li>
-						
-						
-					</ul>
+	
+
+
+<nav class="navbar navbar-trans navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    
+    </div>
+    <div class="navbar-collapse collapse navbar-right" id="navbar-collapsible"> 
+					<div id="nav-col-submenu"></div>
 				</div>
-				
-				<div class="nav-no-collapse pull-right" id="header-nav">
-					<ul class="nav navbar-nav pull-right">
-						<li class="mobile-search">
-							<a class="btn">
-								<i class="fa fa-search"></i>
-							</a>
+				<br>
+						<div class="col-lg-12">
 							
-							<div class="drowdown-search">
-								<form role="search">
-									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Search...">
-										<i class="fa fa-search nav-search-icon"></i>
-									</div>
-								</form>
-							</div>
-							
-						</li>
-						<li class="dropdown profile-dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								<img src="img/samples/scarlet-159.png" alt=""/>
-								<span class="hidden-xs">Administrador</span> <b class="caret"></b>
-							</a>
-							<ul class="dropdown-menu dropdown-menu-right">
-								<li><a href="user-profile.html"><i class="fa fa-user"></i>Cuenta</a></li>
-								<li><a href="#"><i class="fa fa-cog"></i>Ajustes</a></li>
-								<li><a href="#"><i class="fa fa-envelope-o"></i>Mesajes</a></li>
-								<li><a href="#"><i class="fa fa-power-off"></i>cerrar sesion</a></li>
-							</ul>
-						</li>
-						
-					</ul>
-				</div>
-				</div>
-			</div>
-		</header>									
-							
-					</section>
-					
-				</div>
-									
 							<div class="row">
-								<div class="col-lg-12">							
-										<a href="#">DOCTORES</a>						
-									<div class="clearfix">
-										<h1 class="pull-left">CENTRO MEDICO PUNTA CANA</h1>									
-										<div class="pull-right top-page-ui">
-											<a href="#" class="btn btn-primary pull-right">
-												<i class="fa fa-plus-circle fa-lg"></i> Add user
-											</a>
+								
+									
+								
+										<h1 class="pull-left">Citas Medicas</h1>
+										
+										
+										
 										</div>
 									</div>
 								</div>
@@ -130,8 +74,8 @@
 												<table class="table user-list table-hover">
 													<thead>
 														<tr>
-															<th><span>Doctor</span></th>
-															<th><span>Creado</span></th>
+															<th><span>User</span></th>
+															<th><span>Created</span></th>
 															<th class="text-center"><span>Status</span></th>
 															<th><span>Email</span></th>
 															<th>&nbsp;</th>
@@ -140,15 +84,15 @@
 													<tbody>
 														<tr>
 															<td>
-																<img src="img/samples/scarlet-159.png" alt=""/>
-																<a href="#" class="user-link">Scarlett Johansson</a>
-																<span class="user-subhead">Admin</span>
+																<img src="img/Bravo.jpg" alt=""/>
+																<a href="#" class="user-link">Dr. Anthony Arias</a>
+																<span class="user-subhead">Endocrinólogo Ginecologico</span>
 															</td>
 															<td>
 																2013/08/08
 															</td>
 															<td class="text-center">
-																<span class="label label-default">Inactivo</span>
+																<span class="label label-default">Inactive</span>
 															</td>
 															<td>
 																<a href="#">mila@kunis.com</a>
@@ -509,16 +453,103 @@
 						</div>
 					</div>
 					
-					
+					<footer id="footer-bar" class="row">
+						<p id="footer-copyright" class="col-xs-12">
+							Powered by Cube Theme.
+						</p>
 					</footer>
 				</div>
 			</div>
 		</div>
 	</div>
 	
-
+	<div id="config-tool" class="closed">
+		<a id="config-tool-cog">
+			<i class="fa fa-cog"></i>
+		</a>
 		
-		
+		<div id="config-tool-options">
+			<h4>Layout Options</h4>
+			<ul>
+				<li>
+					<div class="checkbox-nice">
+						<input type="checkbox" id="config-fixed-header" />
+						<label for="config-fixed-header">
+							Fixed Header
+						</label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox-nice">
+						<input type="checkbox" id="config-fixed-sidebar" />
+						<label for="config-fixed-sidebar">
+							Fixed Left Menu
+						</label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox-nice">
+						<input type="checkbox" id="config-fixed-footer" />
+						<label for="config-fixed-footer">
+							Fixed Footer
+						</label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox-nice">
+						<input type="checkbox" id="config-boxed-layout" />
+						<label for="config-boxed-layout">
+							Boxed Layout
+						</label>
+					</div>
+				</li>
+				<li>
+					<div class="checkbox-nice">
+						<input type="checkbox" id="config-rtl-layout" />
+						<label for="config-rtl-layout">
+							Right-to-Left
+						</label>
+					</div>
+				</li>
+			</ul>
+			<br/>
+			<h4>Skin Color</h4>
+			<ul id="skin-colors" class="clearfix">
+				<li>
+					<a class="skin-changer" data-skin="" data-toggle="tooltip" title="Default" style="background-color: #34495e;">
+					</a>
+				</li>
+				<li>
+					<a class="skin-changer" data-skin="theme-white" data-toggle="tooltip" title="White/Green" style="background-color: #2ecc71;">
+					</a>
+				</li>
+				<li>
+					<a class="skin-changer blue-gradient" data-skin="theme-blue-gradient" data-toggle="tooltip" title="Gradient">
+					</a>
+				</li>
+				<li>
+					<a class="skin-changer" data-skin="theme-turquoise" data-toggle="tooltip" title="Green Sea" style="background-color: #1abc9c;">
+					</a>
+				</li>
+				<li>
+					<a class="skin-changer" data-skin="theme-amethyst" data-toggle="tooltip" title="Amethyst" style="background-color: #9b59b6;">
+					</a>
+				</li>
+				<li>
+					<a class="skin-changer" data-skin="theme-blue" data-toggle="tooltip" title="Blue" style="background-color: #2980b9;">
+					</a>
+				</li>
+				<li>
+					<a class="skin-changer" data-skin="theme-red" data-toggle="tooltip" title="Red" style="background-color: #e74c3c;">
+					</a>
+				</li>
+				<li>
+					<a class="skin-changer" data-skin="theme-whbl" data-toggle="tooltip" title="White/Blue" style="background-color: #3498db;">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 
 	<!-- global scripts -->
 	<script src="js/demo-skin-changer.js"></script> <!-- only for demo -->
